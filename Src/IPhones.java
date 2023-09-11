@@ -1,6 +1,11 @@
 public class IPhones implements Smartphones, IOS{
 
     @Override
+    public void iosLoad() {
+        System.out.println("Loading operating system, wait .... IOS loaded successful.");
+    }
+
+    @Override
     public void call() {
         System.out.println("Calling by using iPhone.");
     }

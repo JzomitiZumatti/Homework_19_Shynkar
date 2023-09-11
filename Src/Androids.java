@@ -1,6 +1,10 @@
 public class Androids implements Smartphones, LinuxOS {
 
     @Override
+    public void linuxOSLoad() {
+        System.out.println("Loading operating system, wait .... Linux OS loaded successful.");
+    }
+    @Override
     public void call() {
         System.out.println("Calling by using Android smartphone.");
     }
